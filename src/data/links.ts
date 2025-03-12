@@ -1,0 +1,41 @@
+import { LinkCategory } from '../types';
+
+export const links: LinkCategory = {
+    'Layanan Surat Fakultas': [
+        { name: 'Surat Aktif Kuliah (Gaji Orang Tua)', url: 'https://bit.ly/3KYRpKV', description: 'Surat untuk bukti status kuliah' },
+        { name: 'Surat Aktif Kuliah (Pusda/Umum)', url: 'https://bit.ly/SuratAktifKuliahPusdaUmum', description: 'Surat status kuliah umum/Pusda' },
+        { name: 'Surat Aktif Kuliah (Beasiswa)', url: 'https://bit.ly/SuratAktifKuliahBeasiswa', description: 'Surat untuk penerima beasiswa' },
+        { name: 'Surat Rekomendasi Beasiswa', url: 'https://bit.ly/3Dds67t', description: 'Rekomendasi untuk pengajuan beasiswa' },
+        { name: 'Surat Permohonan Izin Magang', url: 'https://bit.ly/3EN5yv1', description: 'Izin untuk melakukan magang' },
+        { name: 'Surat Permohonan Izin Survei', url: 'https://bit.ly/4gRZEG7', description: 'Izin untuk survei atau kunjungan' },
+        { name: 'Surat Permohonan Izin Observasi', url: 'https://bit.ly/3EMssTg', description: 'Izin untuk observasi atau wawancara' },
+        { name: 'Surat Permohonan Izin Penelitian', url: 'https://bit.ly/3D3JRpQ', description: 'Izin untuk melakukan penelitian' },
+        { name: 'Surat Permohonan UKT Susulan', url: 'https://bit.ly/43awSNM', description: 'Permohonan pembayaran UKT susulan' },
+    ],
+    'Layanan Tugas Akhir - Lab Fakultas': [
+        { name: 'Rekap Nilai Praktikum dan Sertifikat Tahfizh', url: 'https://bit.ly/41eXdYB' },
+        { name: 'Formulir Pengajuan SK Skripsi & Tugas Akhir', url: 'https://bit.ly/3Xezzdf' },
+        { name: 'Formulir Penyerahan Skripsi Untuk Syarat Wisuda', url: 'https://bit.ly/3XezIgN' },
+        { name: 'Formulir Seminar Usulan Penelitian Untuk Ujian Proposal (UP)', url: 'https://docs.google.com/document/d/1V_jcdyA3QHRTWlSUk05vt2SB0AUgGkej/edit' },
+        { name: 'Lembar Perbaikan Usulan Penelitian Untuk Ujian Proposal (UP)', url: 'https://docs.google.com/document/d/1k-eCsFTR9YN3hJBDttlQLfFpGMEgF28A/edit' },
+        { name: 'Lembar Proses Bimbingan Skripsi dan Tugas Akhir dalam bentuk lain', url: 'https://docs.google.com/document/d/1BCzTZ3S5C4EzL1wNDjMJZoY51cvUKwvk/edit' },
+        { name: 'Lembar Nilai Bimbingan Skripsi dan Tugas Akhir dalam bentuk lain', url: 'https://docs.google.com/document/d/1BCzTZ3S5C4EzL1wNDjMJZoY51cvUKwvk/edit' },
+        { name: 'Format Penggantian SK Judul Skripsi dan Tugas Akhir dalam bentuk lain', url: 'https://docs.google.com/document/d/15ZSML2X122h2_atNxVm5VoY0N_2-m4MT/edit?usp=drive_link' },
+    ],
+    'Pranala Penting Lainnya': [
+        { name: 'Sertifikat Akreditasi', url: 'https://drive.google.com/drive/folders/1EzkUS2wcNSNlKjR_nUILMuasNUli3BCU?usp=sharing', description: 'Sertifikat Akreditasi Jurusan dan Universitas' },
+        { name: 'Pengajuan SKL Munaqosah', url: 'https://bit.ly/PelayananAkademikPakIhsan', description: 'Surat Keterangan Lulus setelah Munaqosah' },
+        { name: 'Pengajuan SKL Komprehensif', url: 'https://bit.ly/PelayananAkademikPakIhsan', description: 'Surat Keterangan Lulus setelah Komprehensif' },
+        { name: 'Helpdesk PDDikti FSH', url: 'https://docs.google.com/forms/d/e/1FAIpQLSeGR2V2Fu1OZ_d3DN4AFMCShiLX03OmhjGjVTOPxBbCBiJgmA/viewform', description: 'Bantuan teknis PDDkti Universitas di FSH' },
+        { name: 'Validasi Wisuda', url: 'https://docs.google.com/forms/d/e/1FAIpQLSc5Hg_BOajP2e9fkIxsaGEuMYC4bx4XKVN0YC_Qi6eysVTTCg/viewform', description: 'Perbaikan berkas jika salah upload file Validasi' },
+        { name: 'Layanan Akademik HES', url: 'https://linktr.ee/ruanghes', description: 'Bantuan Layanan dari Staf Jurusan HES' },
+        { name: 'Layanan Akademik IH', url: 'https://ilmuhukum.uinsgd.ac.id/biolink', description: 'Bantuan Layanan dari Staf Jurusan IH' },
+        { name: 'Layanan Akademik HTN', url: 'https://linktr.ee/ruanghtn', description: 'Bantuan Layanan dari Staf Jurusan HTN' },
+        { name: 'Layanan Akademik HK', url: 'https://bit.ly/PelayananAkademikPakHadi', description: 'Bantuan Layanan dari Staf Jurusan HK' },
+        { name: 'Layanan Akademik PM', url: 'https://bit.ly/PelayananAkademikPakYanis', description: 'Bantuan Layanan dari Staf Jurusan PM' },
+        { name: 'Layanan Akademik HPI', url: 'https://bit.ly/PelayananAkademikPakDede', description: 'Bantuan Layanan dari Staf Jurusan HPI' },
+        { name: 'Layanan Akademik Pengambilan Ijazah', url: 'https://bit.ly/LayananIjazahFSH', description: 'Layanan Pengambilan Ijazah FSH' },
+        { name: 'Layanan Peminjaman Barang & Aula', url: 'https://bit.ly/PeminjamanBarangFSH', description: 'Layanan Peminjaman Barang dan Aula FSH' },
+        { name: 'Layanan Legalisir Ijazah', url: 'https://bit.ly/LegalisirIjazahFSH', description: 'Layanan Legalisir Ijazah FSH' },
+    ],
+};
