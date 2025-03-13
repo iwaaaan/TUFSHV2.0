@@ -34,7 +34,7 @@ const getProfileImage = (category: string, link: Link) => {
           return 'https://res.cloudinary.com/dq5tfjgvr/image/upload/v1741759930/Yanis_Alghalayini_S.E_jdchni.jpg'; // Pak Yanis
         case 'Layanan Akademik HPI':
           return 'https://res.cloudinary.com/dq5tfjgvr/image/upload/v1741759929/HPI_-_Dede_Romadhona_xq1zsj.jpg'; // Pak Dede
-        case 'Layanan Akademik Pengambilan Ijazah':
+        case 'Layanan Pengambilan Ijazah':
         case 'Layanan Peminjaman Barang & Aula':
           return 'https://res.cloudinary.com/dq5tfjgvr/image/upload/v1741759930/Ahmad_Zaini_S.Sos_gzefxi.jpg'; // Pak Ahmad Zaini
         case 'Layanan Legalisir Ijazah':
