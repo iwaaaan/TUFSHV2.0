@@ -2,8 +2,8 @@ import { LinkCategory } from '../types';
 
 export const links: LinkCategory = {
     'Layanan Surat Fakultas': [
-        { name: 'Surat Aktif Kuliah (Gaji Orang Tua)', url: 'https://bit.ly/3KYRpKV', description: 'Surat untuk bukti status kuliah' },
-        { name: 'Surat Aktif Kuliah (Pusda/Umum)', url: 'https://bit.ly/SuratAktifKuliahPusdaUmum', description: 'Surat status kuliah umum/Pusda' },
+        { name: 'Surat Aktif Kuliah (Gaji Orang Tua)', url: 'https://bit.ly/3KYRpKV', description: 'Surat ini digunakan untuk keperluan yang bersifat pribadi, misalnya Surat Keterangan untuk mengikuti TBQ, pembuatan ATM, Perpanjangan BPJS dsb.' },
+        { name: 'Surat Aktif Kuliah (Pusda/Umum)', url: 'https://bit.ly/SuratAktifKuliahPusdaUmum', description: 'Surat ini digunakan untuk keperluan Tunjangan, atau berkaitan dengan keperluan orang tua yang berstatus PNS.' },
         { name: 'Surat Aktif Kuliah (Beasiswa)', url: 'https://bit.ly/SuratAktifKuliahBeasiswa', description: 'Surat untuk penerima beasiswa' },
         { name: 'Surat Rekomendasi Beasiswa', url: 'https://bit.ly/3Dds67t', description: 'Rekomendasi untuk pengajuan beasiswa' },
         { name: 'Surat Permohonan Izin Magang', url: 'https://bit.ly/3EN5yv1', description: 'Izin untuk melakukan magang' },
@@ -24,8 +24,8 @@ export const links: LinkCategory = {
     ],
     'Pranala Penting Lainnya': [
         { name: 'Sertifikat Akreditasi', url: 'https://drive.google.com/drive/folders/1EzkUS2wcNSNlKjR_nUILMuasNUli3BCU?usp=sharing', description: 'Sertifikat Akreditasi Jurusan dan Universitas' },
-        { name: 'Pengajuan SKL Munaqosah', url: 'https://bit.ly/PelayananAkademikPakIhsan', description: 'Surat Keterangan Lulus setelah Munaqosah' },
-        { name: 'Pengajuan SKL Komprehensif', url: 'https://bit.ly/PelayananAkademikPakIhsan', description: 'Surat Keterangan Lulus setelah Komprehensif' },
+        { name: 'Pengajuan SKL Munaqosah', url: 'https://bit.ly/PelayananAkademikPakIhsan', description: 'Digunakan untuk keperluan mahasiswa yang sudah lulus untuk membuatkan keterangan Lulus sementara sebelum ijazah keluar.' },
+        { name: 'Pengajuan SKL Komprehensif', url: 'https://bit.ly/PelayananAkademikPakIhsan', description: 'Digunakan untuk keperluan mahasiswa yang ingin mendaftar munaqosah' },
         { name: 'Helpdesk PDDikti FSH', url: 'https://docs.google.com/forms/d/e/1FAIpQLSeGR2V2Fu1OZ_d3DN4AFMCShiLX03OmhjGjVTOPxBbCBiJgmA/viewform', description: 'Bantuan teknis PDDkti Universitas di FSH' },
         { name: 'Validasi Wisuda', url: 'https://docs.google.com/forms/d/e/1FAIpQLSc5Hg_BOajP2e9fkIxsaGEuMYC4bx4XKVN0YC_Qi6eysVTTCg/viewform', description: 'Perbaikan berkas jika salah upload file Validasi' },
         { name: 'Layanan Akademik HES', url: 'https://linktr.ee/ruanghes', description: 'Bantuan Layanan dari Staf Jurusan HES' },
