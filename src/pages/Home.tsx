@@ -75,7 +75,7 @@ function Home() {
             <p className="mb-4">
               Pelayanan dan pengiriman surat melalui WhatsApp yang telah
               ditandatangani secara elektronik (TTe) oleh BSrE dilakukan setiap
-              hari pada jam kerja. Jika pelayanan sedang penuh, Surat akan
+              hari kerja pada jam kerja. Jika pelayanan sedang penuh, Surat akan
               dikirim keesokan harinya.
             </p>
             <small className="text-sm text-white/80">
