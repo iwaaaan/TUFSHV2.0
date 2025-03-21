@@ -3,6 +3,7 @@ import { LinkCategory } from '../types';
 export const links: LinkCategory = {
     'Layanan Surat Fakultas': [
         { name: 'Surat Aktif Kuliah (Gaji Orang Tua)', url: 'https://bit.ly/3KYRpKV', description: 'Bersifat pribadi, misalnya untuk mengikuti TBQ, pembuatan ATM, Perpanjangan BPJS dsb.' },
+        { name: 'Permohonan Pengantar ICT', url: 'https://bit.ly/FSH-pengantarICT', description: 'Pengantar ICT susulan untuk PTIPD' },
         { name: 'Surat Aktif Kuliah (Pusda/Umum)', url: 'https://bit.ly/SuratAktifKuliahPusdaUmum', description: 'Biasanya untuk keperluan berkaitan dengan keperluan orang tua berstatus PNS.' },
         { name: 'Surat Aktif Kuliah (Beasiswa)', url: 'https://bit.ly/SuratAktifKuliahBeasiswa', description: 'Surat untuk penerima beasiswa' },
         { name: 'Surat Rekomendasi Beasiswa', url: 'https://bit.ly/3Dds67t', description: 'Rekomendasi untuk pengajuan beasiswa' },
